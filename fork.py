@@ -4,7 +4,7 @@ import time
 
 
 def save_file():
-    fout = open("/Users/zh/Lwh/test1.txt", "w")
+    fout = open("/Users/zh/Lwh/test1.txt", "w")  #文件保存地址根据自己路径更改
 
     now_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
     for i in range(5):
